@@ -1,0 +1,9 @@
+- id: StashDesktop
+  name: Stash Desktop
+  version: 1.2.0
+  date: '2026-11-17 00:00:00'
+  path: https://github.com/MasterTroll650/StashDesktop/releases/download/v1.2.0/StashDesktop.zip
+  sha256: d60697d7a71e96b23398e360cef01acb4180c5f908b706229da4dabfd1161772
+  metadata:
+    description: Reveal remote Stash scene files in Windows Explorer through a per-user
+      desktop helper.
