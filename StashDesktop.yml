@@ -1,0 +1,16 @@
+name: Stash Desktop
+description: Reveal remote Stash scene files in Windows Explorer through a per-user desktop helper.
+version: 1.2.0
+url: https://github.com/MasterTroll650/StashDesktop
+ui:
+  javascript:
+    - stash-desktop.js
+settings:
+  server_path_prefix:
+    displayName: Paths | Stash path prefix
+    description: Server-side media root to translate, for example /media/ or /downloads/. Configure this before using the button.
+    type: STRING
+  windows_path_prefix:
+    displayName: Paths | Windows path prefix
+    description: Matching absolute drive or UNC path on the Windows PC. It must be inside a root allowed by the desktop helper.
+    type: STRING
